@@ -12,26 +12,42 @@
         }
         .cartagena{
             color: rgb(10, 10, 10);
-            background-color: #d6a564;
+            background-color: #dbf5f8;
         }
         .bogota{
             color: #010101;
-            background-color:#c7793e;
+            background-color:#e7d0be;
         }
         .islas{
-            background-color:#ad8b4b;
+            background-color:#c9fdce;
         }
         .amazonas{
              color: #010101;
-            background-color:#dd9c24;
+            background-color:#e2c184;
         }
          .paisaje {
              color: #010101;
-            background-color:#8e6416;
+            background-color:#b3efef;
         }
          .primavera{
              color: #010101;
-            background-color:#f1ae30;
+            background-color:#e2f2ff;
+        }
+        .img01{
+            color: white;
+            border-radius: 6px;
+            padding: 15px;
+            height: 250px;
+            display: flex;
+            background-size:cover ;
+            justify-content: flex-end;
+            flex-direction: column;
+            background-position: center;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+             width: 100%; height: 100%;
+             
         }
     </style>
 </head>
@@ -57,6 +73,7 @@
     <div class="row g-4">
       <div class=" col-md-4 cartagena">
         <div class="p-3   text-center">
+            <img class="img01" src="https://cdn.colombia.com/images/v2/turismo/sitios-turisticos/cartagena/ciudad-cartagena-1200.jpg" alt="">
           <h5>Cartagena</h5>
           <p>La joya del Caribe colombiano con su impresionante arquitectura colonial.</p>
           <button class="btn btn-light btn-sm">Explorar</button>
@@ -64,12 +81,14 @@
       </div>
        <div class="col-md-4">
         <div class="p-3 text-center primavera">
+             <img class="img01" src="https://i.pinimg.com/originals/29/94/5a/29945abed12e8e7214a7ea3f024274de.jpg" alt="">
           <p>La ciudad de la eterna primavera, innovacion y cultura.</p>
           <button class="btn btn-light btn-sm">Explorar</button>
         </div>
       </div>
       <div class="col-md-4">
         <div class="p-3 text-center bogota">
+            <img class="img01" src="https://www.civitatis.com/blog/wp-content/uploads/2022/10/panoramica-plaza-bolivar-bogota.jpg" alt="">
           <h5>Bogotá</h5>
           <p>La capital colombiana, mezcla perfecta de historia y modernidad.</p>
           <button class="btn btn-light btn-sm">Explorar</button>
